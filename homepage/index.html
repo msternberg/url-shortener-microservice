@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h1>Free Code Camp: URL Shortener Microservice</h1>
+
+    <h2>How it Works</h2>
+    <ul>
+      <li>I can pass a URL as a parameter to the pathname, and I will receive
+        a shortened URL in the JSON response.</li>
+      <li>If I visit the shortened URL mentioned, I will be taken to my original
+        link</li>
+    </ul>
+
+    <h2>Examples</h2>
+    <h3>Creation</h3>
+    <code>http://localhost:3500/http://google.com</code>
+    <h3>Creation Output</h3>
+    <code>{ "original_url":"http://google.com", "short_url":"http://localhost:3500/3453" }</code>
+    <h3>Usage</h3>
+    <p>Going to <code>http://localhost:3500/3453</code> will redirect to <code>http://google.com</code>
+
+  </body>
+</html>
