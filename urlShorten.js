@@ -5,7 +5,7 @@ var mongo = require('mongodb').MongoClient;
 var path = require('path');
 
 var port = process.env.PORT || 3500;
-var mongoUrl = 'mongodb://localhost:27017/urlsdb'
+var mongoUrl = 'mongodb://freecodecamp:password@ds01316.mlab.com:1316/urlsdb'
 
 app.listen(port, function () {
   console.log("Listening on port: " + port);
