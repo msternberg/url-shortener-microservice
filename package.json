@@ -1,0 +1,29 @@
+{
+  "name": "urlshorten",
+  "version": "1.0.0",
+  "description": "Url Shortener Microservice Free Code Camp",
+  "main": "urlShorten.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node urlShorten.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msternberg/url-shortener-microservice.git"
+  },
+  "author": "Matthew Sternberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msternberg/url-shortener-microservice/issues"
+  },
+  "homepage": "https://github.com/msternberg/url-shortener-microservice#readme",
+  "dependencies": {
+    "express": "2.15.5",
+    "path": "2.15.5",
+    "mongodb": "2.15.5"
+
+  },
+  "engines": {
+    "node": "4.4.5"
+  }
+}
