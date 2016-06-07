@@ -18,10 +18,9 @@
   },
   "homepage": "https://github.com/msternberg/url-shortener-microservice#readme",
   "dependencies": {
-    "express": "2.15.5",
-    "path": "2.15.5",
-    "mongodb": "2.15.5"
-
+    "express": "^4.13.4",
+    "mongodb": "^2.1.21",
+    "path": "^0.12.7"
   },
   "engines": {
     "node": "4.4.5"
